@@ -57,7 +57,7 @@ def GrabIdFromDataBase(key):
 
 
 def createYDKFile(nameForFile):
-    ydkFile = open(nameForFile+".ydk", "x")
+    ydkFile = open(nameForFile+".txt", "x")
     ydkFile.write("#created by UntapToYDK\n")
     ydkFile.write("#main\n")
     addToExtra = []
